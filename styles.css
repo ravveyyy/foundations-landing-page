@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER SECTION : */
@@ -32,7 +33,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 16px;
 }
 
 .hero-text {
@@ -47,8 +48,9 @@ header {
 }
 
 .header-img {
-    width: 200px;
-    height: auto;
+    /* width: 200px;
+    height: auto; */
+    max-width: 50%;
 }
 
 a {
@@ -60,5 +62,6 @@ button {
     background-color: #3882f6;
     border-color: #3882f6;
     color: white;
+    padding: 8px 24px;
 }
 
