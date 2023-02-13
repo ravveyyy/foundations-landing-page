@@ -6,7 +6,7 @@ body {
 /* HEADER SECTION : */
 header {
     background-color: #1F2937;
-    padding: 6px 132px 48px;
+    padding: 12px 132px 48px;
 }
 
 .header-top {
@@ -65,3 +65,40 @@ button {
     padding: 8px 24px;
 }
 
+/* INFORMATION SECTION : */
+
+.information {
+    text-align: center;
+    padding: 0 6% 48px;
+}
+
+.information > h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.each-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+}
+
+.each-card > img {
+    max-width: 150px;
+    height: 225px;
+}
+
+.each-card > p {
+    color: gray;
+    font-size: 18px;
+}
