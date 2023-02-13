@@ -159,3 +159,13 @@ button {
     border-color: white;
     padding: 4px 40px;
 }
+
+/* FOOTER SECTION : */
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 32px 10%;
+    font-weight: 100;
+}
